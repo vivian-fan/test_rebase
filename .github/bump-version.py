@@ -13,7 +13,7 @@ from stat import ST_CTIME
 def get_remote():
     username = "vivian-fan"
     password = sys.argv[3]
-    remote = f"https://{username}:{password}@github.com/vivian-fan/version-bump-old.git"
+    remote = f"https://{username}:{password}@github.com/vivian-fan/test_rebase.git"
     return remote
 
 
